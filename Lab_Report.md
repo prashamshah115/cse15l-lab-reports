@@ -1,6 +1,6 @@
 # PRASHAM'S LAB REPORT 
 
-# The cd command
+# The `cd` command
 
 ## An example of the command with no arguments
 
@@ -24,7 +24,7 @@ There was no output for this command.
 
 *The output*
 
-# The ls command
+# The `ls` command
 
 ## An example of the command with no arguments
 
@@ -45,7 +45,7 @@ There was no output for this command.
 *The output*
 
 
-# The cat command
+# The `cat` command
 
 ## An example of the command with no arguments
 
