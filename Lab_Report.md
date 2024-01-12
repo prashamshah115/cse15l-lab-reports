@@ -26,8 +26,45 @@ There was no output for this command.
 
 **The ls command**
 
+## An example of the command with no arguments
+
+*The command*
+
+*The output*
+
+## An example of the command with a path to a directory as an argument.
+
+*The command*
+
+*The output*
+
+## An example of using the command with a path to a file as an argument.
+
+*The command*
+
+*The output*
 
 
 **The cat command**
+
+## An example of the command with no arguments
+
+*The command*
+
+*The output*
+
+## An example of the command with a path to a directory as an argument.
+
+*The command*
+
+*The output*
+
+## An example of using the command with a path to a file as an argument.
+
+*The command*
+
+*The output*
+
+
 
 
