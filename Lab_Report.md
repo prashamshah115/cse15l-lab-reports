@@ -6,7 +6,7 @@
 
 *The command*
 
-····[user@sahara ~]$ cd
+    [user@sahara ~]$ cd
 
 *The output*
 
