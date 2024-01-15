@@ -12,6 +12,8 @@
 
 There was no output for this command.
 
+The working directory when running this command was 'home'. We get no output for this command. The 'cd' command is used to change between directories and takes the directory you wish to change to as an argument. When no argument is provided, it takes you to the home directory but since we are already in the home directory, running this command won't give any output. The output is *not* an error. 
+
 ## An example of the command with a path to a directory as an argument.
 
 *The command*
@@ -21,6 +23,8 @@ There was no output for this command.
 *The output*
 
     [user@sahara ~/lecture1]$ 
+
+The working directory when running this command was 'home'. The output we get for this command a blinking cursor, with the terminal showing us that we are now in the lecture1 directory. The 'cd' command is used to change between directories and takes the directory you wish to change to as an argument.As a result, the output of this command is to take us to the 'lecture1' directory. The output is *not* an error. 
 
 ## An example of using the command with a path to a file as an argument.
 
@@ -32,6 +36,8 @@ There was no output for this command.
 
     bash: cd: lecture1/messages/fr.txt: No such file or directory
     [user@sahara ~/lecture1]$ 
+
+The working directory when running this command was 'lecture1'. For ths command, the ouput we get is text from the terminal saying that there is no such directory as lecture1/messages/fr.txt. he 'cd' command is used to change between directories and takes the directory you wish to change to as an argument. Since the command we have passed has a file as an argument, rather than a directory, the output is as such. The output is *not* an error.
 
 # The `ls` command
 
