@@ -52,6 +52,8 @@ The working directory when running this command was 'lecture1'. For ths command,
     lecture1
     [user@sahara ~]$ 
 
+The working directory when running this command was 'home'. The ls command is used to print the contents of the current directory. Here, since we provide no arguments and are in the home directory, passing this command prints 'lecture1' as an output. This output is *not* an error.
+
 ## An example of the command with a path to a directory as an argument.
 
 *The command*
@@ -63,6 +65,8 @@ The working directory when running this command was 'lecture1'. For ths command,
     Hello.class  Hello.java  messages  README
     [user@sahara ~]$ 
 
+The working directory when running this command was 'home'. The ls command is used to print the contents of the current directory. Here, since we have provided lecture1 as the directory, it prints out the names of the files in lecture1. The output is *not* an error.
+
 ## An example of using the command with a path to a file as an argument.
 
 *The command*
@@ -73,6 +77,8 @@ The working directory when running this command was 'lecture1'. For ths command,
 
     lecture1/messages/fr.txt
     [user@sahara ~]$ 
+
+The working directory when running this command was 'home'. Since we have provided a filename as the argument for the command, the ls command - which prints the lists of files in the directory - obviously gives the output as shown. The output is *not* an error.
 
 
 # The `cat` command
@@ -88,6 +94,8 @@ The working directory when running this command was 'lecture1'. For ths command,
     Blinking Cursor
     ^C // once cleared using Control C
 
+The working directory when running this command was 'home'. The cat command is used to print the contents of a file. So attempting to use the command without any file or directory as an argument, gives an error. The output is an error.
+
 ## An example of the command with a path to a directory as an argument.
 
 *The command*
@@ -97,6 +105,8 @@ The working directory when running this command was 'lecture1'. For ths command,
 *The output*
 
     cat: lecture1: Is a directory
+
+The working directory when running this command was 'home'. The cat command is used to print the contents of a file. So attempting to use this command while providing a directory name as an argument, will provide the given output since 'lecture1' is a directory and not a file. The output is *not* an error.
 
 ## An example of using the command with a path to a file as an argument.
 
@@ -109,6 +119,7 @@ The working directory when running this command was 'lecture1'. For ths command,
     Bonjour le Monde!
     [user@sahara ~]$ 
 
+The working directory when running this command was 'home'. The cat command is used to print the contents of a file. Since we have provided a valid filename as an argument, the cat command prints its contents as shown. The output is *not* an error.
 
 
 
