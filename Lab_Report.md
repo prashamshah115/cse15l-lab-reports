@@ -78,7 +78,7 @@ The working directory when running this command was 'home'. The ls command is us
     lecture1/messages/fr.txt
     [user@sahara ~]$ 
 
-The working directory when running this command was 'home'. Since we have provided a filename as the argument for the command, the ls command - which prints the lists of files in the directory - obviously gives the output as shown. The output is *not* an error.
+The working directory when running this command was 'home'. Since we have provided a filename as the argument for the command, the ls command - which prints the lists of files in the path provided in the command - obviously gives the output as shown. The output is *not* an error.
 
 
 # The `cat` command
