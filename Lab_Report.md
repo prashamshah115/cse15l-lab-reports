@@ -37,7 +37,7 @@ The working directory when running this command was 'home'. The output we get fo
     bash: cd: lecture1/messages/fr.txt: No such file or directory
     [user@sahara ~/lecture1]$ 
 
-The working directory when running this command was 'lecture1'. For ths command, the ouput we get is text from the terminal saying that there is no such directory as lecture1/messages/fr.txt. he 'cd' command is used to change between directories and takes the directory you wish to change to as an argument. Since the command we have passed has a file as an argument, rather than a directory, the output is as such. The output is *not* an error.
+The working directory when running this command was '/home/lecture1'. For this command, the ouput we get is text from the terminal saying that there is no such directory as lecture1/messages/fr.txt. The 'cd' command is used to change between directories and takes the directory you wish to change to as an argument. Since the command we have passed has a file as an argument, rather than a directory, the output is as such. The output is *not* an error.
 
 # The `ls` command
 
