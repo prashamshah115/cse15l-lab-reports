@@ -94,7 +94,7 @@ The working directory when running this command was 'home'. Since we have provid
     Blinking Cursor
     ^C // once cleared using Control C
 
-The working directory when running this command was 'home'. The cat command is used to print the contents of a file. So attempting to use the command without any file or directory as an argument, gives an error. The output is an error.
+The working directory when running this command was 'home'. The cat command is used to print the contents of a file. Since we ran this command without arguments, it waits for us to input text. Whatever we type will then be displayed on the screen, and to exit, we use control + c. Hence, this output is not an error. 
 
 ## An example of the command with a path to a directory as an argument.
 
