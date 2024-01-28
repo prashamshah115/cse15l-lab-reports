@@ -12,7 +12,7 @@
 
 There was no output for this command.
 
-The working directory when running this command was 'home'. We get no output for this command. The 'cd' command is used to change between directories and takes the directory you wish to change to as an argument. When no argument is provided, it takes you to the home directory but since we are already in the home directory, running this command won't give any output. The output is *not* an error. 
+The working directory when running this command was ~~~home~~~. We get no output for this command. The 'cd' command is used to change between directories and takes the directory you wish to change to as an argument. When no argument is provided, it takes you to the home directory but since we are already in the home directory, running this command won't give any output. The output is *not* an error. 
 
 ## An example of the command with a path to a directory as an argument.
 
