@@ -106,7 +106,7 @@ The working directory when running this command was `home`. The `cat` command is
 
     cat: lecture1: Is a directory
 
-The working directory when running this command was `home`. The cat command is used to print the contents of a file. So attempting to use this command while providing a directory name as an argument, will provide the given output since `lecture1` is a directory and not a file. The output is *not* an error.
+The working directory when running this command was `home`. The `cat` command is used to print the contents of a file. So attempting to use this command while providing a directory name as an argument, will provide the given output since `lecture1` is a directory and not a file. The output is *not* an error.
 
 ## An example of using the command with a path to a file as an argument.
 
