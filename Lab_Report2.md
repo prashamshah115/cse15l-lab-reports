@@ -4,11 +4,12 @@
 
 **My code for ChatServer**
 
-`import java.io.IOException;
+```
+import java.io.IOException;
 import java.net.URI;
 
 class ChatHandler implements URLHandler {
-    private StringBuilder chatMessages = new StringBuilder(); //idk googled what data structure would be best-suited 
+    private StringBuilder chatMessages = new StringBuilder(); //idk googled what data structure would be best-suited `
 
     @Override
     public String handleRequest(URI url) {
@@ -56,7 +57,17 @@ class ChatServer {
 
         Server.start(port, new ChatHandler());
     }
-}`
+}
+
+```
+**Screenshot 1**
+
+
+
+
+
+**Screenshot 2**
+
 
 ## Part 2
 
