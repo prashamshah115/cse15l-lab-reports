@@ -88,10 +88,12 @@ The chatMessages field is further updated with a new chat message.
 
 **Screenshot of the absolute path to the private key for my SSH key for logging into ieng6**
 
+<img width="601" alt="prasham" src="https://github.com/prashamshah115/cse15l-lab-reports/assets/155808867/6a8b67df-72fb-4973-9892-68ac776f8227">
+
 
 **Screenshot of the absolute path to the public key for your SSH key for logging into ieng6**
 
-<img width="601" alt="prasham" src="https://github.com/prashamshah115/cse15l-lab-reports/assets/155808867/9769b8da-ee33-4b47-98f5-9c15645f788c">
+<img width="1043" alt="Untitled3" src="https://github.com/prashamshah115/cse15l-lab-reports/assets/155808867/616ae3c4-32e9-43c5-9bfa-e9514c9a3489">
 
 
 **Screenshot of terminal interactions where I log into my ieng6 account without being asked for a password.**
