@@ -109,6 +109,8 @@ ame "*t_lsc*"
 2. Second example for a file
 
 ````
+
+prashamshah@Prashams-MacBook-Pro docsearch % find ./technical -iname "*0023*TxT"
 ./technical/plos/pmed.0020023.txt
 ./technical/plos/pmed.0010023.txt
 ./technical/biomed/gb-2002-3-5-research0023.txt
