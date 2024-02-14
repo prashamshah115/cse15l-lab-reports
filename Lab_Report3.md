@@ -94,3 +94,87 @@ This fix addresses the issue because we just have to interchange newArray and ar
 
 ## Part 2
 
+## Command using : `FIND`
+
+**First option - using `find -iname(name)`**
+
+1. First example for a folder
+
+````
+prashamshah@Prashams-MacBook-Pro docsearch % find ./technical -in
+ame "*t_lsc*"
+./technical/government/About_LSC
+````
+
+2. Second example for a file
+
+````
+./technical/plos/pmed.0020023.txt
+./technical/plos/pmed.0010023.txt
+./technical/biomed/gb-2002-3-5-research0023.txt
+````
+
+**Second option - using `find -type(type)`**
+
+1. First example for a folder
+
+````
+prashamshah@Prashams-MacBook-Pro docsearch % find ./technical -ty
+pe d
+./technical
+./technical/government
+./technical/government/About_LSC
+./technical/government/Env_Prot_Agen
+./technical/government/Alcohol_Problems
+./technical/government/Gen_Account_Office
+./technical/government/Post_Rate_Comm
+./technical/government/Media
+./technical/plos
+./technical/biomed
+./technical/911report
+````
+
+2. Second example for a file
+
+````
+prashamshah@Prashams-MacBook-Pro docsearch % find ./technical -ty
+pe f -name "*go*"
+./technical/government/Media/Oregon_Poor.txt
+./technical/government/Media/Ginny_Kilgore.txt
+````
+
+**Third option - using `find -maxdepth(depth)`**
+
+1. First example for a folder
+
+````
+prashamshah@Prashams-MacBook-Pro docsearch % find ./technical -ma
+xdepth 1 -name "*os*"
+./technical/plos
+````
+
+2. Second example for a file
+
+````
+prashamshah@Prashams-MacBook-Pro docsearch % find ./technical -maxdepth 2 -name "*123*"
+./technical/plos/pmed.0020123.txt
+````
+
+**Fourth option - using `find -ipath(path)`**
+
+1. First example for a folder
+
+````
+prashamshah@Prashams-MacBook-Pro docsearch % find ./technical -ipath "*About*" -type d
+./technical/government/About_LSC
+````
+
+2. Second example for a file
+
+````
+prashamshah@Prashams-MacBook-Pro docsearch % find ./technical -ipath "*Media*" -iname "*cu*"
+./technical/government/Media/Funding_cuts_force.txt
+./technical/government/Media/Too_Crucial_to_Take_Cut.txt
+./technical/government/Media/Avoids_Budget_Cut.txt
+````
+
