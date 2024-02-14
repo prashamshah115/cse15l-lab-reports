@@ -114,6 +114,8 @@ ame "*t_lsc*"
 ./technical/biomed/gb-2002-3-5-research0023.txt
 ````
 
+The -iname tool helps us find a file not knowing its full name. It is useful for when we forget the file name and we’re trying to find the file from among a large amount of files and directories.
+
 **Second option - using `find -type(type)`**
 
 1. First example for a folder
@@ -143,6 +145,8 @@ pe f -name "*go*"
 ./technical/government/Media/Ginny_Kilgore.txt
 ````
 
+The -type tool helps list out files of a specific type from the folder. It's useful when we don’t want  files other than regular files or directories while using the find command.
+
 **Third option - using `find -maxdepth(depth)`**
 
 1. First example for a folder
@@ -159,6 +163,7 @@ xdepth 1 -name "*os*"
 prashamshah@Prashams-MacBook-Pro docsearch % find ./technical -maxdepth 2 -name "*123*"
 ./technical/plos/pmed.0020123.txt
 ````
+The -maxdepth tool helps limit the search scope. It's useful when we only want to look for a folder within a certain depth.
 
 **Fourth option - using `find -ipath(path)`**
 
@@ -177,4 +182,4 @@ prashamshah@Prashams-MacBook-Pro docsearch % find ./technical -ipath "*Media*" -
 ./technical/government/Media/Too_Crucial_to_Take_Cut.txt
 ./technical/government/Media/Avoids_Budget_Cut.txt
 ````
-
+The -ipath tool helps search for files within a path string. It's useful when we want to look for files inside a certain directory but  can’t remember where is the directory located.
