@@ -185,3 +185,5 @@ prashamshah@Prashams-MacBook-Pro docsearch % find ./technical -ipath "*Media*" -
 ./technical/government/Media/Avoids_Budget_Cut.txt
 ````
 The -ipath tool helps search for files within a path string. It's useful when we want to look for files inside a certain directory but  can’t remember where is the directory located.
+
+options above sourced from `man find` 
