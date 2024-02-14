@@ -64,7 +64,33 @@ Caused by: java.lang.AssertionError: expected:<5> but was:<0>
         at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
         ... 36 more
 ````
+**FIXING THE BUG**
 
+Before 
+
+````
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return newArray;
+  }
+````
+
+After 
+
+````
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+````
+
+This fix addresses the issue because we just have to interchange newArray and arr in the loop and return newArray. Otherwise, we would have lost values in the process of reassigning values to the same array 'arr'.
 
 ## Part 2
 
