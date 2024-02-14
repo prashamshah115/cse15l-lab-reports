@@ -16,6 +16,31 @@
     return newArray;
   }
 
-  ```` 
+  ````
+
+Failure-inducing Input (Test case)
+
+````
+@Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+````
+
+Non Failure-inducing Input
+
+````
+@Test
+  public void testReverseOneElement() {
+    int[] input1 = {6};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{6}, input1);
+  }
+````
+
+**SYMPTOMS**
+
+
 ## Part 2
 
