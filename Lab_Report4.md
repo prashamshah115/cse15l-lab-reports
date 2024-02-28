@@ -33,6 +33,7 @@ Explanation:
 
 We first go to the github site and copy the link by clicking the copy button in the repository. Then we go to the terminal and type out the git clone commmand and use right click to paste the link that we copy from the website : `https://github.com/prashamshah115/lab7`.
 
+
 ## STEP 6
 
 Keys Pressed: 
