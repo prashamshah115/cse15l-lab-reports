@@ -23,11 +23,13 @@ The command is not run in the terminal, so we type it out including the host.
 
 Keys pressed: 
 
-`<open-website(https://github.com/prashamshah115/lab7)>
+````
+<open-website(https://github.com/prashamshah115/lab7)>
 <click-button(<> Code)>
 <click-button(copy)>
 <open-terminal>
-git<space>clone<space><right-click>`
+git<space>clone<space><right-click>
+````
 
 Explanation:
 
