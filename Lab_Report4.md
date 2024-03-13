@@ -51,8 +51,8 @@ First we will use `cd` to go into the directory we cloned. We press <tab> to aut
 
 Keys Pressed: 
 
-`vim<space>L<tab>.<tab><enter>
-`
+`vim<space>L<tab>.<tab><enter>`
+
 Explanation: 
 
 We first use the vim command to open the vim editor for the .java file. 'L' and tab auto-complete opens ListExamples.java, then . and tab auto-complete specifies the file name to ListExamples.java instead of ListExamplesTests.java.
@@ -60,25 +60,26 @@ We first use the vim command to open the vim editor for the .java file. 'L' and 
 
 Keys Pressed in the vim file: 
 
-`:set number<enter>
+````
+:set number<enter>
 44gg
 e
 i
 <delete>
 2
 <esc>
-:x<enter>`
+:x<enter>
+````
 
 Explanation: 
 
-We start off with  `:set number<enter>` to make the vim editor to display the line number. Then, we can use `44gg` to jump the cursor to line 44. Then, the `e` command moves us to the very end of the word index1, and we then change the mode to insert mode using the `i` command. Then, we delete the number 1 with `<delete>` and type the number 2 in. Finally, we save the file by changing the mode to the normal mode by pressing esc. `:x<enter>` exits.
+We start off with `:set number<enter>` to make the vim editor to display the line number. Then, we can use `44gg` to jump the cursor to line 44. Then, the `e` command moves us to the very end of the word index1, and we then change the mode to insert mode using the `i` command. Then, we delete the number 1 with `<delete>` and type the number 2 in. Finally, we save the file by changing the mode to the normal mode by pressing esc. `:x<enter>` exits.
 
 ## STEP 8
 
 Keys Pressed: 
 
-`bash<space>t<tab><enter>
-`
+`bash<space>t<tab><enter>`
 
 Explanation: 
 
@@ -88,9 +89,11 @@ The bash command runs the test.sh bash script, t and tab auto-complete fills the
 
 Keys Pressed: 
 
-`git<space>add<space>.<enter>
+````
+git<space>add<space>.<enter>
 git<space>commit<space>-m<space>"fix<space>error"<enter>
-git<space>push<enter>`
+git<space>push<enter>
+````
 
 Explanation: 
 
