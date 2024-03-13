@@ -94,4 +94,4 @@ git<space>push<enter>`
 
 Explanation: 
 
-git<space>add<space>.<add> adds all the files in the directory to git. Then,  git<space>commit<space>-m<space> alongside the commit "fix<space>error" and <enter> will execute the command. Lastly, we type git<space>push<enter> to push the changes to the directory to github.
+`git<space>add<space>.<add>` adds all the files in the directory to git. Then,  `git<space>commit<space>-m<space>` alongside the commit "fix<space>error" and <enter> will execute the command. Lastly, we type `git<space>push<enter>` to push the changes to the directory to github.
